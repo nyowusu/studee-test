@@ -1,0 +1,74 @@
+nav {
+  height: 3rem;
+  width: 100%;
+}
+
+.container {
+  padding: 0 16px;
+  overflow-y: scroll;
+  margin-bottom: 3rem;
+}
+
+.sign-in {
+  margin-top: 4rem;
+}
+
+.sign-in div:first-child img {
+  color: #603392;
+}
+
+.sign-in div:nth-child(2) {
+  margin-top: 2.5rem;
+}
+
+.sign-in span {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 20px;
+  color: #603392;
+}
+
+.sign-in p {
+  font-weight: 700;
+}
+
+.sign-in-button {
+  margin-top: 48px;
+  background-color: #603392;
+  color: white;
+  font-weight: 700;
+  font-size: 19px;
+}
+.sign-in-with {
+  margin-top: 64px;
+}
+
+.sign-in-with button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  border-width: 2px;
+  border-style: solid;
+  font-size: 19px;
+  line-height: 27px;
+}
+
+.sign-in-with img {
+  margin-right: 8px;
+}
+
+.sign-in-with .google {
+  border-color: #3e82f7;
+  color: #3e82f7;
+}
+
+.sign-in-with .facebook {
+  border-color: #3b5998;
+  color: #3b5998;
+  margin-bottom: 32px;
+}
+
+.banner {
+  display: none;
+}
